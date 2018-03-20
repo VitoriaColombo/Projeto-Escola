@@ -38,7 +38,7 @@ public static int calculaIdade(java.util.Date dataNasc) {
 
     return idade;
 }
-    public Pessoas(String nome, String rg, String cpf, Date datanascimento, int idade) {
+    public Pessoas(String nome, String rg, String cpf, Date datanascimento) {
         this.nome = nome;
         this.rg = rg;
         this.cpf = cpf;

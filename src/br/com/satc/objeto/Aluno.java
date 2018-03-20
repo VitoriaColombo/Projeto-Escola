@@ -17,11 +17,13 @@ public class Aluno extends Pessoas {
     private Date dataMatricula;
     private ArrayList<Disciplina> disciplinas = new ArrayList<Disciplina>();
 
-    public Aluno(int matricula, Date dataMatricula, String nome, String rg, String cpf, Date datanascimento, int idade) {
-        super(nome, rg, cpf, datanascimento, idade);
+    public Aluno(int matricula, Date dataMatricula, String nome, String rg, String cpf, Date datanascimento) {
+        super(nome, rg, cpf, datanascimento);
         this.matricula = matricula;
         this.dataMatricula = dataMatricula;
     }
+
+
 
     public int getMatricula() {
         return matricula;

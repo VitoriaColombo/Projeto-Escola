@@ -18,8 +18,8 @@ public class Professor extends Pessoas {
     private float valorHora;
     private float salario;
 
-    public Professor(int cargaHoraria, float valorHora, String nome, String rg, String cpf, Date datanascimento, int idade) {
-        super(nome, rg, cpf, datanascimento, idade);
+    public Professor(int cargaHoraria, float valorHora, String nome, String rg, String cpf, Date dataNascimento) {
+        super (nome, rg, cpf, dataNascimento);
         this.cargaHoraria = cargaHoraria;
         this.valorHora = valorHora;
         this.salario = calculaSalario (valorHora, cargaHoraria);
